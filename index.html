@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ROW</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Header -->
+<header id="header">
+  <div class="intro">
+    <div class="container">
+      <div class="row">
+        <div class="intro-text">
+          <h3>RGBD Objects in the Wild:
+            Scaling Real-World 3D Object Learning from RGB-D Videos</h3>
+          <h2>WildRGB-D Dataset</h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>About the Dataset</h2>
+      <p>Here is a video to introduce our proposed WildRGB-D dataset.</p>
+      <hr>
+    </div>
+    <div class="row">
+      <!--  -->
+      <div class="col-md-8 col-md-offset-2">
+        <video controls autoplay muted loop width="100%" height="auto" onclick="playPause();">
+          <source src="supplementary_video.mp4" type="video/mp4">
+        </video>
+        <div class="about-text">
+          <p>We introduce WildRGB-D dataset which comprises large-scale category-level RGB-D object videos, featuring in direct capture of the depth channel allows better 3D annotations and broader downstream applications.</p>
+          <p>These videos are taken with diverse cluttered backgrounds with three setups to cover as many real-world scenarios as possible: (i) a single object in one video; (ii) multiple objects in one video; and (iii) an object with a static hand in one video. </p>
+    
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Navigation -->
+<div id="nav">
+  <nav class="navbar navbar-custom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+      </div>
+      
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden"> <a href="#page-top"></a> </li>
+          <li> <a class="page-scroll" href="#about">About</a> </li>
+          <li> <a class="page-scroll" href="#explore">Explore</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<!-- Portfolio Section -->
+<div id="explore">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Explore</h2>
+      <p>Here, we show some of the samples from our dataset.</p>
+      <hr>
+    </div>
+
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="cats/bowl.html" data-filter=".bowl">bowl</a></li>
+            <li><a href="cats/pliers.html" data-filter=".pliers">pliers</a></li>
+            <li><a href="cats/stuffed_toy.html" data-filter=".stuffed_toy">stuffed_toy</a></li>
+            <li><a href="cats/bucket.html" data-filter=".bucket">bucket</a></li>
+            <li><a href="cats/chair.html" data-filter=".chair">chair</a></li>
+            <li><a href="cats/detergent.html" data-filter=".detergent">detergent</a></li>
+            <li><a href="cats/cucumber.html" data-filter=".cucumber">cucumber</a></li>
+            <li><a href="cats/tomato.html" data-filter=".tomato">tomato</a></li>
+          </ol>
+        </li>
+        
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="cats/plane.html" data-filter=".plane">plane</a></li>
+            <li><a href="cats/handbag.html" data-filter=".handbag">handbag</a></li>
+            <li><a href="cats/boat.html" data-filter=".boat">boat</a></li>
+            <li><a href="cats/cellphone.html" data-filter=".cellphone">cellphone</a></li>
+            <li><a href="cats/truck.html" data-filter=".truck">truck</a></li>
+            <li><a href="cats/kettle.html" data-filter=".kettle">kettle</a></li>
+            <li><a href="cats/pineapple.html" data-filter=".pineapple">pineapple</a></li>
+            <li><a href="cats/apple.html" data-filter=".apple">apple</a></li>
+          </ol>
+        </li>
+        
+      <div class="clearfix"></div>
+    </div>
+    
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="cats/mouse.html" data-filter=".mouse">mouse</a></li>
+            <li><a href="cats/ball.html" data-filter=".ball">ball</a></li>
+            <li><a href="cats/orange.html" data-filter=".orange">orange</a></li>
+            <li><a href="cats/tooth_brush.html" data-filter=".tooth_brush">tooth_brush</a></li>
+            <li><a href="cats/box.html" data-filter=".box">box</a></li>
+            <li><a href="cats/train.html" data-filter=".train">train</a></li>
+            <li><a href="cats/peach.html" data-filter=".peach">peach</a></li>
+            <li><a href="cats/pear.html" data-filter=".pear">pear</a></li>
+          </ol>
+        </li>
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="cats/book.html" data-filter=".book">book</a></li>
+            <li><a href="cats/shoe.html" data-filter=".shoe">shoe</a></li>
+            <li><a href="cats/donut.html" data-filter=".donut">donut</a></li>
+            <li><a href="cats/razor.html" data-filter=".razor">razor</a></li>
+            <li><a href="cats/scissor.html" data-filter=".scissor">scissor</a></li>
+            <li><a href="cats/bottle.html" data-filter=".bottle">bottle</a></li>
+            <li><a href="cats/cup.html" data-filter=".cup">cup</a></li>
+            <li><a href="cats/carrot.html" data-filter=".carrot">carrot</a></li>
+          </ol>
+        </li>
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="cats/banana.html" data-filter=".banana">banana</a></li>
+            <li><a href="cats/car.html" data-filter=".car">car</a></li>
+            <li><a href="cats/knife.html" data-filter=".knife">knife</a></li>
+            <li><a href="cats/remote_control.html" data-filter=".remote_control">remote_control</a></li>
+            <li><a href="cats/keyboard.html" data-filter=".keyboard">keyboard</a></li>
+            <li><a href="cats/hat.html" data-filter=".hat">hat</a></li>
+            <li><a href="cats/flower_pot.html" data-filter=".flower_pot">flower_pot</a></li>
+            <li><a href="cats/potato.html" data-filter=".potato">potato</a></li>
+            <li><a href="cats/cake.html" data-filter=".cake">cake</a></li>
+          </ol>
+        </li>
+      <div class="clearfix"></div>
+    </div>
+  </ul>
+
+    <div class="row">
+      <div class="portfolio-items" id="load-items">
+        
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230822_0_20230822_banana_banana_072_2_Shareable_2023-08-14--14-02-23.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230822_0_20230822_banana_banana_hand_087_hand_Shareable_2023-08-14--18-33-00.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230822_0_20230822_book_book_153_1_Shareable_2023-08-12--13-31-39.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230822_1_20230822_donut_donut_001_1_Shareable_2023-08-14--13-26-29.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230822_2_20230822_orange_orange_085_1_Shareable_2023-08-18--14-21-19.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230822_2_20230822_peach_peach_068_1_Shareable_2023-08-14--13-47-13.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230822_2_20230822_pineapple_pineapple_001_1_Shareable_2023-08-18--10-08-00.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230822_2_20230822_shoe_shoe_045_1_Shareable_2023-08-13--15-48-09.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230822_4_20230822_tooth_brush_tooth_brush_011_1_Shareable_2023-08-19--11-32-37.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230823_0_20230823_cup_cup_095_1_Shareable_2023-08-20--16-48-02.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230828_1_20230828_cellphone_cellphone_hand_034_hand_Shareable_2023-08-24--19-58-03.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230829_1_20230829_bowl_bowl_110_1_Shareable_2023-08-26--15-42-32.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230829_1_20230829_detergent_detergent_036_2_Shareable_2023-08-26--17-57-34.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230901_2_20230901_flower_pot_flower_pot_105_3_Shareable_2023-08-30--15-39-17.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230904_0_20230904_backpack_backpack_003_1_Shareable_2023-09-01--16-49-57.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230904_0_20230904_book_book_hand_201_2_Shareable_2023-09-02--14-59-55.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230904_0_20230904_bottle_bottle_hand_244_hand_Shareable_2023-09-02--15-39-34.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230904_3_20230904_hat_hat_hand_203_hand_Shareable_2023-08-31--19-58-34.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230904_3_20230904_knife_knife_hand_047_hand_Shareable_2023-08-31--18-57-12.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230907_0_20230907_ball_ball_059_3_Shareable_2023-09-04--14-22-05.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230907_0_20230907_boat_boat_004_2_Shareable_2023-09-04--20-13-50.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230907_0_20230907_bottle_bottle_293_1_Shareable_2023-09-03--19-28-15.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230907_0_20230907_car_car_074_3_Shareable_2023-09-05--10-06-49.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230907_0_20230907_chair_chair_003_1_Shareable_2023-09-04--14-46-49.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230907_4_20230907_train_train_037_2_Shareable_2023-09-05--10-50-26.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230907_4_20230907_truck_truck_021_1_Shareable_2023-09-04--18-02-04.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230908_1_20230908_handbag_handbag_hand_012_hand_Shareable_2023-09-06--14-22-01.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230908_1_20230908_mouse_mouse_hand_070_hand_Shareable_2023-09-05--18-53-53.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230908_2_20230908_plane_plane_073_2_Shareable_2023-09-05--16-31-35.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230913_1_20230913_bucket_bucket_074_3_Shareable_2023-09-10--15-17-51.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230913_1_20230913_bus_bus_083_2_Shareable_2023-09-10--22-20-04.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230913_4_20230913_hat_hat_266_1_Shareable_2023-09-11--17-39-21.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230913_4_20230913_kettle_kettle_039_2_Shareable_2023-09-11--15-51-10.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230914_2_20230914_clock_clock_002_3_Shareable_2023-09-12--16-36-20.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230914_3_20230914_mouse_mouse_151_2_Shareable_2023-09-12--20-13-29.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230915_3_20230915_scissor_scissor_087_1_Shareable_2023-09-13--14-51-10.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230918_5_20230918_pliers_pliers_hand_054_hand_Shareable_2023-09-14--18-45-19.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230918_5_20230918_razor_razor_047_1_Shareable_2023-09-13--16-56-11.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230919_0_20230919_TV_TV_001_1_Shareable_2023-09-16--11-04-54.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230919_2_20230919_keyboard_keyboard_136_3_Shareable_2023-09-17--02-54-54.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230919_2_20230919_microwave_microwave_001_2_Shareable_2023-09-16--13-55-24.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data2_wild6dv2_zips_20230920_0_20230920_carrot_carrot_hand_101_hand_Shareable_2023-09-18--11-13-55.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data_wild6dv2_zips_20230724_record3d_20230724_cellphone_cellphone_001_02_Shareable_2023-07-24--22-18-55.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data_wild6dv2_zips_20230804_1_record3d_20230804_1_box_box_071_01_Shareable_2023-08-03--19-30-37.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data_wild6dv2_zips_20230804_1_record3d_20230804_1_knife_knife_008_01_Shareable_2023-08-04--10-50-09.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data_wild6dv2_zips_20230804_1_record3d_20230804_1_remote_control_remote_control_004_02_Shareable_2023-08-03--21-23-51.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data_wild6dv2_zips_20230804_1_record3d_20230804_1_stuffed_toy_stuffed_toy_007_02_Shareable_2023-08-03--11-05-43.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data_wild6dv2_zips_20230805_record3d_20230805_carrot_carrot_002_03_Shareable_2023-08-04--18-12-24.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data_wild6dv2_zips_20230809_1_record3d_20230809_apple_apple_005_01_Shareable_2023-08-08--16-02-20.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data_wild6dv2_zips_20230809_1_record3d_20230809_cake_cake_006_01_Shareable_2023-08-08--13-40-58.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data_wild6dv2_zips_20230809_1_record3d_20230809_tomato_tomato_011_02_Shareable_2023-08-08--16-49-36.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data_wild6dv2_zips_20230809_2_record3d_20230809_2_pear_pear_001_01_Shareable_2023-08-05--14-46-41.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data_wild6dv2_zips_20230809_5_record3d_20230809_5_cucumber_cucumber_040_01_Shareable_2023-08-09--16-40-42.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data_wild6dv2_zips_20230817_0_20230817_apple_apple_hand_091_hand_Shareable_2023-08-11--14-28-52.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data_wild6dv2_zips_20230817_4_20230817_potato_potato_066_2_Shareable_2023-08-07--15-54-27.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">    <div class="portfolio-item">        <video controls autoplay muted loop>        <source src="video/_data_wild6dv2_zips_20230804_1_record3d_20230804_1_stuffed_toy_stuffed_toy_012_02_Shareable_2023-08-03--11-14-53.zip.mp4" type="video/mp4">        </video>    </div>    </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="footer">
+  <div class="container text-center">
+    <div class="fnav">
+      <p>Copyright &copy; Magnum. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/nivo-lightbox.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/load_objs.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
